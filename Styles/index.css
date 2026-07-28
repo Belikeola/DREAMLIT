@@ -208,9 +208,9 @@ body {
 }
 
 
-.slide1 { background-image: url('../Images/hero-slider1.jpg'); }
-.slide2 { background-image: url('../Images/hero-slider2.jpg'); animation-delay: 4s; }
-.slide3 { background-image: url('../Images/hero-slider3.jpg'); animation-delay: 8s; }
+.slide1 { background-image: url('../Images/hero-slider1.webp'); }
+.slide2 { background-image: url('../Images/hero-slider2.webp'); animation-delay: 4s; }
+.slide3 { background-image: url('../Images/hero-slider3.webp'); animation-delay: 8s; }
 
 .hero-overlay {
   position: absolute;
