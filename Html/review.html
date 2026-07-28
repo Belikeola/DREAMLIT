@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dreamlit | you dream it..you earn it</title>
-    <link rel="stylesheet" href="./Styles/contact.css">
+    <link rel="stylesheet" href="./Styles/review.css">
     <link rel="shortcut icon" href="./Images/header logo.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -38,72 +38,77 @@
                 </div>
                 <nav class="nav-menu">
                     <ul>
-                        <li><a href="index.html">HOME</a></li>
-                        <li><a href="about.html">ABOUT</a></li>
-                        <li><a href="service.html">SERVICE</a></li>
-                        <li><a href="feature.html" >FEATURE</a></li>
-                        <li><a href="advisor.html">ADVISOR</a></li>
-                        <li><a href="review.html">REVIEW</a></li>
+                        <li><a href="index.html" >HOME</a></li>
+                        <li><a href="./Html/about.html">ABOUT</a></li>
+                        <li><a href="./Html/service.html">SERVICE</a></li>
+                        <li><a href="./Html/feature.html">FEATURE</a></li>
+                        <li><a href="./Html/advisor.html">ADVISOR</a></li>
+                        <li><a href="./Html/review.html"class="active">REVIEW</a></li>
                         <li class="dropdown-item">
                             <a href="#" >PAGES <i class="fas fa-chevron-down" style="font-size: 11px; margin-left: 3px;"></i></a>
                             <ul class="submenu">
-                                <li><a href="blog.html">Blog Page</a></li>
-                                <li><a href="single.html">Single Page</a></li>
+                                <li><a href="./Html/blog.html">Blog Page</a></li>
+                                <li><a href="#">Single Page</a></li>
                             </ul>
                         </li>
-                        <li><a href="contact.html" class="active">CONTACT</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
                     </ul>
                 </nav>
         </header>
+
         <main>
-            <section class="contact">
-                <p class="contact-p">Get In Touch</p>
-                <h2 class="contact-h2">Get In Touch For Any Query</h2>
-                <div class="contact-box">
-                    <div class="contact-lpm">
-                        <div class="info-details contact-location">
-                            <div class="info-icon location-icon"><img src="./Images/location icon.png " alt=""></div>
-                             <div class="info-text location-text">
-                                <h4>Our Head Office</h4>
-                                <p>2nd Avenue Gwarinpa, Abuja, Nigeria</p>
-                             </div>
-                        </div>
-
-                        <div class="info-details contact-phone">
-                            <div class="info-icon phone-icon"><img src="./Images/phone-plus.png" alt=""></div>
-                            <div class="info-text phone-text">
-                                <h4>Call for Help</h4>
-                                <p>+234 9056 789034</p>
-                            </div>
-                        </div>
-
-                        <div class="info-details contact-mail">
-                            <div class="info-icon mail-icon"><img src="./Images/mail.png" alt=""></div>
-                            <div class="info-text mail-text">
-                                <h4>Email For Information</h4>
-                                <p>info@example.com</p>
-                            </div>
-                        </div>
+            <section class="features">
+                <div class="features-card">
+                    <div class="features-grid">
+                        <img src="./Images/people-group.png" alt="Qualified Team Icon" class="qt-icon">
+                        <h4>Qualified Team</h4>
                     </div>
-                    <form class="contact-details">
-                        <div class="form-group">
-                            <input type="text" class="cname" placeholder="Your Name">
+                    <div class="features-grid">
+                        <img src="./Images/edit.png" alt="individual-approach-icon">
+                        <h4>Individual Approach</h4>
+                    </div>
+                    <div class="features-grid">
+                        <img src="./Images/ranking-stars.png" alt="success-icon">
+                        <h4>100% Success</h4>
+                    </div>
+
+                    <div class="features-grid">
+                        <img src="./Images/feedback-review.png" alt="satisfaction-icon">
+                        <h4> 100% Satisfaction</h4>
+                    </div>
+                </div>
+            </section>
+
+            <section class="testimonial">
+                <p class="testimonial-p">Testimonial Carousel</p>
+                <h2 class="testimonial-h2">100% Positive Customer Reviews</h2>
+
+                <div class="testimonial-card">
+                    <div class="t-1">
+                        <div class="t-icon-w">
+                            <img src="./Images/Profile 3.jpg" alt="">
                         </div>
-                        
-                        <div class="form-group">
-                            <input type="email" class="cmail" placeholder="Your Email">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio nam quasi rerum culpa sunt labore reiciendis porro architecto rem veritatis. Velit incidunt ad iste ea quisquam quod numquam tempore totam.</p>
+                        <h5>Sadik Idris</h5>
+                        <p class="t-prof">Tech Consultant & Private Wealth Client</p>
+                    </div>
+                    <div class="t-1">
+                        <div class="t-icon-w">
+                            <img src="./Images/Profile 2.jpg" alt="">
                         </div>
-                        
-                        <div class="form-group">
-                            <input type="text" class="csubject" placeholder="Subject">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio nam quasi rerum culpa sunt labore reiciendis porro architecto rem veritatis. Velit incidunt ad iste ea quisquam quod numquam tempore totam.</p>
+                        <h5>Silas Binite</h5>
+                        <p class="t-prof">CEO Apex Technology</p>
+                    </div>
+
+                    <div class="t-1">
+                        <div class="t-icon-w">
+                            <img src="./Images/Profile1.jpg" alt="">
                         </div>
-                        
-                        <div class="form-group">
-                            <textarea name="cmessage" id="cmessage" placeholder="Message"></textarea>
-                        </div>
-                        
-                        <button type="submit" class="submit-btn">Send Message</button>
-                    </form>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio nam quasi rerum culpa sunt labore reiciendis porro architecto rem veritatis. Velit incidunt ad iste ea quisquam quod numquam tempore totam.</p>
+                        <h5>Courage Agbho</h5>
+                        <p class="t-prof">Managing Director at Vanguard Holdings</p>
+                    </div>
                 </div>
             </section>
         </main>
@@ -152,6 +157,8 @@
                 </div>
             </div>
         </footer>
+
     </div>
+    
 </body>
 </html>
