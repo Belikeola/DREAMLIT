@@ -1488,16 +1488,51 @@ footer {
 
 
 @media screen and (max-width:500px){
-.main-header{padding:15px;}
-.logo-img{width:140px;}
-.slide-text-content{width:95%;}
-.slide-text-content h1{font-size:1.7rem;line-height:1.2;}
-.slide-text-content p{font-size:14px;line-height:1.5;}
-.btn-slider{width:100%;padding:14px;}
-.hero-buttons{gap:12px;}
-.slider-arrows button{width:40px;height:40px;}
-.contact-box{flex-direction:column;}
-.contact-details{width:100%;padding:20px;}
-.info-details{padding:20px 15px;}
-.nav-menu{width:80%;max-width:320px;}
+.main-header{
+  padding:15px;
+}
+.logo-img{
+  width:140px;
+}
+.slide-text-content{
+  width:95%;
+}
+.slide-text-content h1{
+  font-size:1.7rem;
+  line-height:1.2;
+}
+.slide-text-content p{
+  font-size:14px;
+  line-height:1.5;
+}
+.btn-slider{
+  width:100%;padding:14px;
+}
+.hero-buttons{
+  gap:12px;
+}
+.slider-arrows button{
+  width:40px;
+  height:40px;
+}
+.features-card{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+
+.contact-box{
+  flex-direction:column;
+}
+.contact-details{
+  width:100%;
+  padding:20px;
+}
+.info-details{
+  padding:20px 15px;
+}
+.nav-menu{
+  width:80%;
+  max-width:320px;
+}
 }
