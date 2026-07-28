@@ -1520,6 +1520,10 @@ footer {
   grid-template-columns: repeat(2, 1fr);
 }
 
+.rate{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
 
 .contact-box{
   flex-direction:column;
