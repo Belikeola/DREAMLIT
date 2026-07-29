@@ -1462,7 +1462,6 @@ footer {
 
 .advisor-card{
   grid-template-columns:repeat(2,1fr);
-  visibility: hidden;
 }
 
 .contact-box{
