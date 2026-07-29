@@ -1443,6 +1443,7 @@ footer {
   grid-template-columns:repeat(2,1fr);
 }
 
+
 .cs-card{
   grid-template-columns:repeat(2,1fr);
 }
@@ -1460,9 +1461,8 @@ footer {
 }
 
 .advisor-card{
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 25px;
+  grid-template-columns:repeat(2,1fr);
+  visibility: hidden;
 }
 
 .contact-box{
