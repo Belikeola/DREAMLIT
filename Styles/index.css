@@ -740,6 +740,15 @@ section,
 }
 
 .ad-item img {
+  width: 100% !important;
+  height: 350px !important;
+  display: block !important;
+  object-fit: cover !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.ad-item img {
   width: 100%;
   height: auto;
   display: block;
