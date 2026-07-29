@@ -739,14 +739,6 @@ section,
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
 }
 
-.ad-item img {
-  width: 100% !important;
-  height: 350px !important;
-  display: block !important;
-  object-fit: cover !important;
-  opacity: 1 !important;
-  visibility: visible !important;
-}
 
 .ad-item img {
   width: 100%;
