@@ -174,6 +174,21 @@ body {
   color: #1bc0f7 !important;
 }
 
+.mobile-menu,
+.mobile-menu-exit{
+  display:none;
+  cursor:pointer;
+}
+
+.mobile-menu{
+  width:32px;
+}
+
+.mobile-menu-exit{
+  width:24px;
+  margin:20px;
+}
+
 .contact {
   width: 100%;
   max-width: 1200px;
@@ -449,4 +464,144 @@ footer {
 
 .footer-copy a:hover {
   color: #0084ff;
+}
+
+@media screen and (max-width:767px){
+
+.header-contact{
+  display:none;
+}
+
+.main-header{
+  padding:20px;
+}
+
+.mobile-menu{
+  display:block;
+}
+
+.nav-menu{
+  display:none;
+  position:fixed;
+  right:0;
+  top:0;
+  width:70%;
+  height:100vh;
+  background:#05223e;
+  padding:2em;
+  z-index:999;
+}
+
+.nav-menu.menu-btn{
+  display:block;
+}
+
+.mobile-menu-exit{
+  display:block;
+  float:right;
+  margin-bottom:2em;
+}
+
+.nav-menu ul{
+  display:flex;
+  flex-direction:column;
+  gap:25px;
+  clear:both;
+}
+
+.nav-menu ul li{
+  text-align:left;
+}
+
+.nav-menu ul li a{
+  color:white;
+  font-size:18px;
+}
+
+.nav-menu ul li .submenu{
+  position:static;
+  display:none;
+  background:transparent;
+  box-shadow:none;
+  padding-left:15px;
+}
+
+.nav-menu ul li.dropdown-item:hover .submenu{
+  display:block;
+}
+
+.contact-box{
+  flex-direction:column;
+  gap:25px;
+}
+
+.contact-details{
+  width:100%;
+  padding:25px 20px;
+}
+
+.footer-text{
+  grid-template-columns:1fr;
+}
+
+.news-sub{
+  flex-direction:column;
+  gap:15px;
+}
+
+.news-sub-btn{
+  width:100%;
+  padding:15px;
+}
+
+.footer-copy{
+  flex-direction:column;
+  text-align:center;
+  gap:15px;
+}
+
+}
+
+@media screen and (min-width:768px) and (max-width:1023px){
+
+.mobile-menu,
+.mobile-menu-exit{
+  display:none;
+}
+.contact-box{
+  flex-direction:row;
+  justify-content: space-between;
+}
+
+.footer-text{
+  grid-template-columns:repeat(2,1fr);
+}
+
+.footer-newsletter{
+  grid-column:1/3;
+}
+}
+
+
+@media screen and (max-width:500px){
+.main-header{
+  padding:15px;
+}
+.logo-img{
+  width:140px;
+}
+.contact-box{
+  flex-direction:column;
+}
+.contact-details{
+  width:100%;
+  padding:20px;
+}
+.info-details{
+  padding:20px 15px;
+}
+.nav-menu{
+  width:80%;
+  max-width:320px;
+}
 }
