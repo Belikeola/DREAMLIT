@@ -1228,7 +1228,70 @@ footer {
 }
 
 /*Media Queries */
-@media screen and (max-width:767px){
+
+@media screen and  (min-width:319px) and (max-width:480px){
+.main-header{
+  padding:15px;
+}
+.logo-img{
+  width:140px;
+}
+.slide-text-content{
+  width:95%;
+}
+.slide-text-content h1{
+  font-size:1.7rem;
+  line-height:1.2;
+}
+.slide-text-content p{
+  font-size:14px;
+  line-height:1.5;
+}
+.btn-slider{
+  width:100%;padding:14px;
+}
+.hero-buttons{
+  gap:12px;
+}
+.slider-arrows button{
+  width:40px;
+  height:40px;
+}
+.features-card{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.features-grid { 
+  transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.features-grid:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+}
+.rate{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.contact-box{
+  flex-direction:column;
+}
+.contact-details{
+  width:100%;
+  padding:20px;
+}
+.info-details{
+  padding:20px 15px;
+}
+.nav-menu{
+  width:80%;
+  max-width:320px;
+}
+}
+
+@media screen and (min-width:481px) and (max-width:1200px){
 
 .header-contact{
   display:none;
@@ -1417,7 +1480,7 @@ footer {
 
 }
 
-@media screen and (min-width:768px) and (max-width:1023px){
+@media screen and (min-width:1201px) and (max-width:1600px){
 
 .mobile-menu,
 .mobile-menu-exit{
@@ -1489,64 +1552,4 @@ footer {
 }
 
 
-@media screen and (max-width:500px){
-.main-header{
-  padding:15px;
-}
-.logo-img{
-  width:140px;
-}
-.slide-text-content{
-  width:95%;
-}
-.slide-text-content h1{
-  font-size:1.7rem;
-  line-height:1.2;
-}
-.slide-text-content p{
-  font-size:14px;
-  line-height:1.5;
-}
-.btn-slider{
-  width:100%;padding:14px;
-}
-.hero-buttons{
-  gap:12px;
-}
-.slider-arrows button{
-  width:40px;
-  height:40px;
-}
-.features-card{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
 
-.features-grid { 
-  transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease; 
-}
-
-.features-grid:hover{
-  transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
-}
-.rate{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.contact-box{
-  flex-direction:column;
-}
-.contact-details{
-  width:100%;
-  padding:20px;
-}
-.info-details{
-  padding:20px 15px;
-}
-.nav-menu{
-  width:80%;
-  max-width:320px;
-}
-}
